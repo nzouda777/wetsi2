@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundImage: {
+            "miniCreativeHeroBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/themes/vcamp/assets/images/shape/bg-1.png')",
+            "bottomTeaserBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_39.jpg')"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="mx-auto md:max-w-screen-2xl space-y-32">
+  <header class="md:mx-8">
+    <div class="grid md:grid-cols-2">
+        <div class="space-y-12">
+            <h2 class="text-5xl font-bold capitalize">boston consulting group.</h2>
+            <p class="font-light text-2xl">
+                We are helping client to create WordPress websites with our talented expert.
+            </p>
+            <div class="mt-2">    
+                <a href="#" class="border-2 border-black px-6 py-3 font-semibold text-lg hover:text-white hover:duration-1000 hover:bg-red-500 hover:border-none">Consulting with and expert now!</a>
+            </div>
+            <div class="flex items-center">
+                <p class="text-xl text-gray-500">Already a member?</p>
+                <a href="#" class="ml-3">Sign in.</a>
+            </div>
+        </div>
+        <div class="">
+            
+        <img class="relative before:absolute before:h-96 before:w-full before:bg-red-500 before:z-20" src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2022/01/hr-1.jpg" alt="">
+        <div ></div>
+        </div>
+    </div>
+  </header>
+  
+  <section class="lg:px-32 md:px-8 border-t py-16 space-y-16">
+    
+    <div class="md:grid md:grid-cols-3 space-y-16 md: space-y-0 grid-cols-1 md:text-left text-center  gap-2">
+      <div class="space-y-6">
+        <div class="bg-black text-white rounded-full p-4 inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.867 19.125h.008v.008h-.008v-.008z" />
+          </svg>          
+        </div>
+        <h2 class="capitalize text-2xl font-semibold">Core wordPress</h2>
+        <ul class="space-y-2">
+          <li class="capitalize text-xl font-light">
+            personalization
+          </li>
+          <li class="capitalize text-xl font-light">
+            third-Party intergration
+          </li>
+          <li class="capitalize text-xl font-light">
+            first-Party analytics
+          </li>
+          <li class="capitalize text-xl font-light">
+            hosting setup
+          </li>
+          <li class="capitalize text-xl font-light">
+            security
+          </li>
+        </ul>
+      </div>
+      <div class="space-y-6">
+        <div class="bg-black text-white rounded-full p-4 inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+          </svg>               
+        </div>
+        <h2 class="capitalize text-2xl font-semibold">plateform audit</h2>
+        <ul class="space-y-2">
+          <li class="capitalize text-xl font-light">
+            personalization
+          </li>
+          <li class="capitalize text-xl font-light">
+            third-Party intergration
+          </li>
+          <li class="capitalize text-xl font-light">
+            first-Party analytics
+          </li>
+          <li class="capitalize text-xl font-light">
+            hosting setup
+          </li>
+          <li class="capitalize text-xl font-light">
+            security
+          </li>
+        </ul>
+      </div>
+      <div class="space-y-6">
+        <div class="bg-black text-white rounded-full py-4 px-4 inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+          </svg>                                
+        </div>
+        <h2 class="capitalize text-2xl font-semibold">plateform audit</h2>
+        <ul class="space-y-2">
+          <li class="capitalize text-xl font-light">
+            personalization
+          </li>
+          <li class="capitalize text-xl font-light">
+            third-Party intergration
+          </li>
+          <li class="capitalize text-xl font-light">
+            first-Party analytics
+          </li>
+          <li class="capitalize text-xl font-light">
+            hosting setup
+          </li>
+          <li class="capitalize text-xl font-light">
+            security
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="why-choose-us">
+    
+    <div class="md:flex md:space-y-0 space-y-8 mt-12 py-4 text-center justify-between items-center">
+        <div class="space-y-2">
+          <h2 class="text-4xl font-serif font-bold job"></h2>
+          <p class="text-xl">Job done successfully</p>
+        </div>
+        
+        <div class="space-y-2">
+          <h2 class="text-4xl font-serif font-bold rate"></h2>
+          <p class="text-xl">Job done successfully</p>
+        </div>
+        
+        <div class="space-y-2">
+          <h2 class="text-4xl font-serif font-bold contact"></h2>
+          <p class="text-xl">Job done successfully</p>
+        </div>
+        
+        <div class="space-y-2">
+          <h2 class="text-4xl font-serif font-bold user"></h2>
+          <p class="text-xl">Job done successfully</p>
+        </div>
+      </div>
+  </section>
+  <!-- testimony -->
+  <section class=" h-4/5 flex overflow-hidden lg:mx-16 md:mx-0 py-16 md:px-2 px-8">
+    <div class="swiper__container  w-full h-full">
+      <div class="swiper mySwiperb4 relative">
+        <div class="swiper-wrapper h-auto">
+            <div class="space-y-4 swiper-slide px-8  flex-col flex justify-center items-start">
+                <div class="grid grid-cols-2  md:gap-16">
+                   <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_38-391x484.jpg" alt="">
+                   <blockquote class=" space-y-12">
+                       <div class="px-4 py-4 text-5xl bg-black inline-block rounded-full text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M9.8 6.4a1 1 0 0 1-.2 1.4c-1.564 1.173-2.461 2.314-2.973 3.31A3.5 3.5 0 1 1 4 14.558a7.566 7.566 0 0 1 .508-3.614C5.105 9.438 6.272 7.796 8.4 6.2a1 1 0 0 1 1.4.2Zm7.6-.2a1 1 0 0 1 1.2 1.6c-1.564 1.173-2.461 2.314-2.973 3.31A3.5 3.5 0 1 1 13 14.558a7.567 7.567 0 0 1 .508-3.614c.598-1.506 1.764-3.148 3.892-4.744ZM7.5 13a1.5 1.5 0 0 0-1.492 1.348L6 14.51A1.5 1.5 0 1 0 7.5 13Zm9 0a1.5 1.5 0 0 0-1.492 1.348L15 14.51A1.5 1.5 0 1 0 16.5 13Z"/></g></svg>
+                       </div>
+                       <p class="lg:text-4xl md:text-3xl !leading-[1.5] ">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit, nulla recusandae blanditiis magnam sint.
+                       </p>
+                       <div class="flex items-center">
+                       <div class="block h-1 w-6 bg-black"></div>
+                       <div class="ml-3 text-xl capitalize">paul monroe. <span class="font-light uppercase">usa</span> </div>
+                       </div>
+                   </blockquote>
+                </div>
+             </div>
+             <div class="space-y-4 swiper-slide px-8 flex-col flex justify-center items-start">
+              <div class="grid grid-cols-2  md:gap-16">
+                 <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_38-391x484.jpg" alt="">
+                 <blockquote class=" space-y-12">
+                     <div class="px-4 py-4 text-5xl bg-black inline-block rounded-full text-white">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M9.8 6.4a1 1 0 0 1-.2 1.4c-1.564 1.173-2.461 2.314-2.973 3.31A3.5 3.5 0 1 1 4 14.558a7.566 7.566 0 0 1 .508-3.614C5.105 9.438 6.272 7.796 8.4 6.2a1 1 0 0 1 1.4.2Zm7.6-.2a1 1 0 0 1 1.2 1.6c-1.564 1.173-2.461 2.314-2.973 3.31A3.5 3.5 0 1 1 13 14.558a7.567 7.567 0 0 1 .508-3.614c.598-1.506 1.764-3.148 3.892-4.744ZM7.5 13a1.5 1.5 0 0 0-1.492 1.348L6 14.51A1.5 1.5 0 1 0 7.5 13Zm9 0a1.5 1.5 0 0 0-1.492 1.348L15 14.51A1.5 1.5 0 1 0 16.5 13Z"/></g></svg>
+                     </div>
+                     <p class="lg:text-4xl md:text-3xl !leading-[1.5] ">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit, nulla recusandae blanditiis magnam sint.
+                     </p>
+                     <div class="flex items-center">
+                     <div class="block h-1 w-6 bg-black"></div>
+                     <div class="ml-3 text-xl capitalize">paul monroe. <span class="font-light uppercase">usa</span> </div>
+                     </div>
+                 </blockquote>
+              </div>
+           </div>
+        </div>
+        <!-- navigation -->
+        <div class="swiper-pagination "></div>
+      </div>      
+    </div>
+  </section>
+<!-- our blog -->
+
+<section class=" md:px-8 lg:px-16 space-y-12 md:py-16">
+    <div class="flex justify-between">
+      <div class="block">
+        <h2 class=" space-y-0">
+          <div class="capitalize text-5xl font-bold">
+            our blog
+          </div>
+        </h2>
+      </div>
+      <div class="inline-block">
+        <a href="#" class=" font-semibold hover:underline rounded-lg text-lg px-8 py-2 inline-block">Check our all news ></a>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4  gap-8">
+      <a href="#" class=" px-5 py-8 space-y-6 bg-gray-100">
+        <div class="inline-block px-6 py-0 uppercase bg-black rounded-full text-white">our blog</div>
+          <h2 class="text-2xl">A Discount Cartridge dsu is Better Ever.</h2>
+          <p class="text-xl text-gray-400 hover:!no-underline">October 25, 2021</p>
+          <div class="flex items-center justify-between py-4">
+            <img class="rounded-full h-12 w-12" src="http://2.gravatar.com/avatar/e7b9b29c4fdd4d4ec28699064fe80204?s=100&d=mm&r=g" alt="">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+              </svg>            
+            </div>
+          </div>
+      </a>
+      <a href="#" class=" px-5 py-8 space-y-6 bg-gray-100">
+        <div class="inline-block px-6 py-0 uppercase bg-black rounded-full text-white">our blog</div>
+          <h2 class="text-2xl">A Discount Cartridge dsu is Better Ever.</h2>
+          <p class="text-xl text-gray-400 hover:!no-underline">October 25, 2021</p>
+          <div class="flex items-center justify-between py-4">
+            <img class="rounded-full h-12 w-12" src="http://2.gravatar.com/avatar/e7b9b29c4fdd4d4ec28699064fe80204?s=100&d=mm&r=g" alt="">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+              </svg>            
+            </div>
+          </div>
+      </a>
+      <a href="#" class=" px-5 py-8 space-y-6 bg-gray-100">
+        <div class="inline-block px-6 py-0 uppercase bg-black rounded-full text-white">our blog</div>
+          <h2 class="text-2xl">A Discount Cartridge dsu is Better Ever.</h2>
+          <p class="text-xl text-gray-400 hover:!no-underline">October 25, 2021</p>
+          <div class="flex items-center justify-between py-4">
+            <img class="rounded-full h-12 w-12" src="http://2.gravatar.com/avatar/e7b9b29c4fdd4d4ec28699064fe80204?s=100&d=mm&r=g" alt="">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+              </svg>            
+            </div>
+          </div>
+      </a>
+      <a href="#" class=" px-5 py-8 space-y-6 bg-gray-100">
+        <div class="inline-block px-6 py-0 uppercase bg-black rounded-full text-white">our blog</div>
+          <h2 class="text-2xl">A Discount Cartridge dsu is Better Ever.</h2>
+          <p class="text-xl text-gray-400 hover:!no-underline">October 25, 2021</p>
+          <div class="flex items-center justify-between py-4">
+            <img class="rounded-full h-12 w-12" src="http://2.gravatar.com/avatar/e7b9b29c4fdd4d4ec28699064fe80204?s=100&d=mm&r=g" alt="">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+              </svg>            
+            </div>
+          </div>
+      </a>
+      
+    </div>
+  </section>
+  <footer class=" lg:px-14 md:px-7 px-3 py-6 space-y-20">
+    <div class="grid md:grid-cols-2 text-center  md:text-left lg:grid-cols-4 grid-cols-1 gap-6">
+      <div class="company-logo">
+        <a href="">
+          <img class="w-48" src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/12/dark-logo2x.png" alt="">
+        </a>
+      </div>
+      <div class="space-y-6">
+        <h2 class="capitalize text-3xl font-light text-gray-500">link</h2>
+        <ul class="space-y-2">
+          <li>
+              <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+        </ul>
+      </div>
+      <div class="space-y-6">
+        <h2 class="capitalize text-3xl font-light text-gray-500">link</h2>
+        <ul class="space-y-2">
+          <li>
+              <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+          <li>
+            <a href="#" class=" hover:text-red-500 hover:underline capitalize text-lg">service classic</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="space-y-6">
+        <h2 class="capitalize text-3xl font-light text-gray-500">Newsletter</h2>
+        <p class="text-xl font-serif">
+          join over 68,000 people getting our email
+        </p>
+        <div class="flex w-full flex-col justify-center items-center">
+          <div class="bg-gray-200 rounded-lg w-full py-2 px-2 flex justify-between">
+            <input type="email" name="" class="border-none outline-none bg-transparent w-full md:text-lg md:px-6 md:py-4 px-2 py-2" placeholder="Enter your email" id="">
+            <button class="inline-block bg-red-500 md:text-lg text-sm text-white rounded-xl w-1/2 hover:bg-red-500 hover:duration-1000" >Suscribe</button>
+        </div>
+          <div class="mt-5">
+            <p class="text-sm font-light text-gray-500">
+              We only send interesting and relevant emails.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col space-y-2 justify-center items-center">
+      <div class="space-x-6">
+        <a href="#" class="font-semibold capitalize">privacy & terms.</a>
+        <a href="#" class="font-semibold capitalize">contact us</a>
+      </div>
+      <div class="flex space-x-4 text-2xl">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+        </a>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278c-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387c2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549a1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"/></svg>
+        </a>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"/></svg>
+        </a>
+      </div>
+      <div class="font-light text-xl text-gray-600">Copyright @2022 vcamp inc</div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+        delay: 1000,
+      }
+    });
+    var swiper = new Swiper(".mySwiperb4", {
+      spaceBetween: 30,
+      centeredSlides: false,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".next-btn",
+        prevEl: ".prev-btn",
+      },
+    });
+    var j = 0
+var x = 0
+var y= 0
+var z = 0 
+setInterval(() => {
+
+if (x < 3) {
+  x = x+1
+  document.querySelector('.job').innerHTML = x + ".5K"
+}
+if (y < 20) {
+  y = y+1
+  document.querySelector('.rate').innerHTML = y + "million"
+}
+if (j < 50) {
+  j = j+1
+  document.querySelector('.contact').innerHTML = j + "K+"
+}
+if (z < 3000) {
+  z = z+100
+  document.querySelector('.user').innerHTML = z + "+"
+}
+  console.log(x)
+}, 100);
+
+  </script>
+</body>
+</html>
