@@ -12,23 +12,24 @@
         extend: {
           backgroundImage: {
             "miniCreativeHeroBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/themes/vcamp/assets/images/shape/bg-1.png')",
-            "bottomTeaserBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_39.jpg')"
-          }
+            "bottomTeaserBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_39.jpg')",
+            "lastImg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/themes/vcamp/assets/images/media/img_30.jpg')"
+        }
         }
       }
     }
   </script>
 </head>
 <body class="mx-auto md:max-w-screen-2xl space-y-32">
-  <header class="md:mx-8">
-    <div class="grid md:grid-cols-2">
+  <header class="md:mx-16 py-12">
+    <div class="grid md:grid-cols-2 gap-16">
         <div class="space-y-12">
-            <h2 class="text-5xl font-bold capitalize">boston consulting group.</h2>
+            <h2 class="md:text-6xl font-bold capitalize">boston consulting group.</h2>
             <p class="font-light text-2xl">
                 We are helping client to create WordPress websites with our talented expert.
             </p>
             <div class="mt-2">    
-                <a href="#" class="border-2 border-black px-6 py-3 font-semibold text-lg hover:text-white hover:duration-1000 hover:bg-red-500 hover:border-none">Consulting with and expert now!</a>
+                <a href="#" class="border-2 border-black px-6 md:px-4 py-3 font-semibold lg:text-lg md:text-base hover:text-white hover:duration-1000 hover:bg-red-500 hover:border-none">Consulting with and expert now!</a>
             </div>
             <div class="flex items-center">
                 <p class="text-xl text-gray-500">Already a member?</p>
@@ -124,29 +125,260 @@
       </div>
     </div>
   </section>
-  <section class="why-choose-us">
-    
+  <section class="why-choose-us md:mx-8 space-y-20">
+    <div class="grid lg:grid-cols-2 grid-col-1 lg:gap-32 md:gap-16">
+        <div class="space-y-6">
+            <p class="font-light text-lg text-gray-500 uppercase">why choose us</p>
+            <h2 class="font-bold lg:text-7xl md:text-5xl">We solve your Problem.</h2>
+        </div>
+        <p class="lg:text-5xl text-4xl font-light">
+            We are the startup studio with a 
+            <span class="text-red-500 underline">
+                 mission to partner 
+            </span>
+            with the best founders.
+        </p>
+    </div>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1">
+        <img class="hidden lg:block" src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_70.jpg" alt="">
+        <div class="accordion space-y-6">
+            <div class="item ">
+                <h2 class="flex justify-between font-semibold toggle-text-1 text-2xl">
+                    <div class="capitalize">secure & trusted</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 plus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                          </svg>      
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 hidden minus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                          </svg>
+                                              
+                    </div>
+                </h2>
+                <div class="text-to-toggle mt-3 text-xl font-light hidden">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga aliquid sunt quidem? Voluptates aspernatur sed nam incidunt? Beatae unde non assumenda optio rem modi tempora ipsam laudantium dolor sunt.
+                </div>
+            </div>
+            
+            <div class="item ">
+                <h2 class="flex justify-between font-semibold toggle-text-1 text-2xl">
+                    <div class="capitalize">expert members</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 plus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                          </svg>      
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 hidden minus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                          </svg>
+                                              
+                    </div>
+                </h2>
+                <div class="text-to-toggle mt-3 text-xl font-light hidden">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga aliquid sunt quidem? Voluptates aspernatur sed nam incidunt? Beatae unde non assumenda optio rem modi tempora ipsam laudantium dolor sunt.
+                </div>
+            </div>
+            
+            <div class="item ">
+                <h2 class="flex justify-between font-semibold toggle-text-1 text-2xl">
+                    <div class="capitalize">big ressources</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 plus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                          </svg>      
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 hidden minus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                          </svg>
+                                              
+                    </div>
+                </h2>
+                <div class="text-to-toggle mt-3 text-xl font-light hidden">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga aliquid sunt quidem? Voluptates aspernatur sed nam incidunt? Beatae unde non assumenda optio rem modi tempora ipsam laudantium dolor sunt.
+                </div>
+            </div>
+            
+            <div class="item ">
+                <h2 class="flex justify-between font-semibold toggle-text-1 text-2xl">
+                    <div class="capitalize">Expert members</div>
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 plus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                          </svg>      
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 hidden minus-btn">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                          </svg>
+                                              
+                    </div>
+                </h2>
+                <div class="text-to-toggle mt-3 text-xl font-light hidden">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga aliquid sunt quidem? Voluptates aspernatur sed nam incidunt? Beatae unde non assumenda optio rem modi tempora ipsam laudantium dolor sunt.
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="md:flex md:space-y-0 space-y-8 mt-12 py-4 text-center justify-between items-center">
         <div class="space-y-2">
-          <h2 class="text-4xl font-serif font-bold job"></h2>
+          <h2 class="text-4xl  font-bold job"></h2>
           <p class="text-xl">Job done successfully</p>
         </div>
         
         <div class="space-y-2">
-          <h2 class="text-4xl font-serif font-bold rate"></h2>
+          <h2 class="text-4xl  font-bold rate"></h2>
           <p class="text-xl">Job done successfully</p>
         </div>
         
         <div class="space-y-2">
-          <h2 class="text-4xl font-serif font-bold contact"></h2>
+          <h2 class="text-4xl  font-bold contact"></h2>
           <p class="text-xl">Job done successfully</p>
         </div>
         
         <div class="space-y-2">
-          <h2 class="text-4xl font-serif font-bold user"></h2>
+          <h2 class="text-4xl  font-bold user"></h2>
           <p class="text-xl">Job done successfully</p>
         </div>
       </div>
+  </section>
+  <!-- why choose us -->
+  <section class="mx-8">      
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
+        <div class="space-y-16">
+            <h2 class="font-bold text-5xl">Why Choose vCamp?</h2>
+            <p class="text-2xl font-light">
+                So how does it work? Let’s check our Getting Started tutorial pre-made templates.
+            </p>
+            <ul class="space-y-6">
+                <li class="flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                          </svg>                          
+                    </div>
+                    <p class="text-xl font-light ml-3">
+                        Makes them <span class="font-bold border-b border-red-500">purchase</span> your product, service and quis interact website due
+                    </p>
+                </li>
+                <li class="flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                          </svg>                          
+                    </div>
+                    <p class="text-xl font-light ml-3">
+                        Makes them <span class="font-bold border-b border-red-500">purchase</span> your product, service and quis interact website due
+                    </p>
+                </li>
+                <li class="flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                          </svg>                          
+                    </div>
+                    <p class="text-xl font-light ml-3">
+                        Makes them <span class="font-bold border-b border-red-500">purchase</span> your product, service and quis interact website due
+                    </p>
+                </li>
+                <li class="flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                          </svg>                          
+                    </div>
+                    <p class="text-xl font-light ml-3">
+                        Makes them <span class="font-bold border-b border-red-500">purchase</span> your product, service and quis interact website due
+                    </p>
+                </li>
+            </ul>
+            <button class="px-8 py-4 bg-black hover:bg-red-500 hover:duration-1000 text-white text-xl">
+                Consult with an expert now!
+            </button>
+        </div>
+        <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2022/01/img_71.jpg" alt="">
+    </div>
+  </section>
+  <!-- our talented player -->
+  <section class="mx-8  space-y-20">
+    <div class="grid grid-cols-2 gap-22">
+        <h2 class="font-bold capitalize text-5xl">
+            our talented players.
+        </h2>
+        <div class="slider-nav flex justify-end">
+            <div class="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                  </svg>                              
+            </div>
+            <div class="next ml-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                  </svg>                  
+            </div>
+        </div>
+    </div>
+    
+    <div class="swiper__container">
+        <div class="swiper mySwipertal">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center space-y-6">
+                    <div class="overflow-hidden rounded-xl lg:h-72 md:h-full w-full">
+                        <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_14-418x444.jpg" class="w-full hover:scale-125 hover:duration-1000" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="text-xl font-bold">Hassan al Said</h2>
+                        <h2 class="text-gray-500 capitalize text-xl">
+                            developer
+                        </h2>
+                    </div>
+              </div>
+              
+              <div class="swiper-slide text-center space-y-6">
+                <div class="overflow-hidden rounded-xl lg:h-72 md:h-full w-full">
+                    <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_14-418x444.jpg" class="w-full hover:scale-125 hover:duration-1000" alt="">
+                </div>
+                <div class="space-y-2">
+                    <h2 class="text-xl font-bold">Hassan al Said</h2>
+                    <h2 class="text-gray-500 capitalize text-xl">
+                        developer
+                    </h2>
+                </div>
+          </div>
+          
+          <div class="swiper-slide text-center space-y-6">
+            <div class="overflow-hidden rounded-xl lg:h-72 md:h-full w-full">
+                <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_14-418x444.jpg" class="w-full hover:scale-125 hover:duration-1000" alt="">
+            </div>
+            <div class="space-y-2">
+                <h2 class="text-xl font-bold">Hassan al Said</h2>
+                <h2 class="text-gray-500 capitalize text-xl">
+                    developer
+                </h2>
+            </div>
+      </div>
+      
+      <div class="swiper-slide text-center space-y-6">
+        <div class="overflow-hidden rounded-xl lg:h-72 md:h-full w-full">
+            <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_14-418x444.jpg" class="w-full hover:scale-125 hover:duration-1000" alt="">
+        </div>
+        <div class="space-y-2">
+            <h2 class="text-xl font-bold">Hassan al Said</h2>
+            <h2 class="text-gray-500 capitalize text-xl">
+                developer
+            </h2>
+        </div>
+  </div>
+  
+  <div class="swiper-slide text-center space-y-6">
+    <div class="overflow-hidden rounded-xl lg:h-72 md:h-full w-full">
+        <img src="http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/10/img_14-418x444.jpg" class="w-full hover:scale-125 hover:duration-1000" alt="">
+    </div>
+    <div class="space-y-2">
+        <h2 class="text-xl font-bold">Hassan al Said</h2>
+        <h2 class="text-gray-500 capitalize text-xl">
+            developer
+        </h2>
+    </div>
+</div>
+            </div>
+          </div>
+    </div>
   </section>
   <!-- testimony -->
   <section class=" h-4/5 flex overflow-hidden lg:mx-16 md:mx-0 py-16 md:px-2 px-8">
@@ -264,6 +496,33 @@
       
     </div>
   </section>
+  <div class="w-content bg-lastImg h-72 bg-center before:bg-red-700 before:h-full before:opacity-60 before:absolute relative before:w-full">
+    <div class=" px-8 py-6 z-10 relative">
+        <div class="grid grid-cols-2">
+            <h2 class="font-bold text-white text-6xl">
+                Join our
+                team be a great skills elite.
+            </h2>
+            <div class="space-y-12">
+                <p class="text-3xl font-light text-white">
+                    We’re a team of creatives who are excited about unique ideas & help.
+                </p>
+                <a href="#" class="bg-black text-white text-xl px-8 py-3 rounded-lg inline-block">
+                    <div class="flex">
+                        <div class="">
+                            Send your CV
+                        </div>
+                        <div class="ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                              </svg>                          
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
   <footer class=" lg:px-14 md:px-7 px-3 py-6 space-y-20">
     <div class="grid md:grid-cols-2 text-center  md:text-left lg:grid-cols-4 grid-cols-1 gap-6">
       <div class="company-logo">
@@ -351,6 +610,19 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>  
 <script>
+        var swiper = new Swiper(".mySwipertal", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        prevEl: ".prev",
+        nextEl: ".next"
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
     var swiper = new Swiper(".mySwiper", {
       autoplay: {
         delay: 1000,
@@ -396,6 +668,30 @@ if (z < 3000) {
 }
   console.log(x)
 }, 100);
+
+const $ = (selector) => {
+    return document.querySelector(selector)
+}
+const $$ = (selector) => {
+    return document.querySelectorAll(selector)
+}
+let accordion_text = $(".text-to-toggle")
+let plus_btn = $(".plus-btn") 
+let minus_btn = $(".minus-btn")
+let item = $$(".item")
+item.forEach(element => {
+    element.onclick = () => {
+    if(accordion_text.classList.contains("hidden")){
+        accordion_text.classList.remove("hidden")
+        plus_btn.classList.add("hidden")
+        minus_btn.classList.remove("hidden")
+    }else{
+        accordion_text.classList.add("hidden")
+        plus_btn.classList.remove("hidden")
+        minus_btn.classList.add("hidden")
+    }
+}
+});
 
   </script>
 </body>
