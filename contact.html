@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              backgroundImage: {
+                'formImg1': "url('http://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/11/img_88.jpg')"
+            }
+            }
+          }
+        }
+      </script>
+    <title>Vcamp header-1</title>
+</head>
+<body class="space-y-6">
+<div class="flex justify-center h-full items-center flex-col">
+    <div class=" md:space-y-16 lg:space-y-24 py-24 px-8 md:px-0 space-y-12 text-center">
+        <h2 class=" lg:text-7xl text-5xl font-semibold capitalize ">
+            <span>basic</span>
+            <span class="text-red-500 underline">header</span>
+        </h2>
+        <p class="lg:text-2xl  text-xl font-light">
+            If you have fancy for building up your online business, you must adopt a website.
+        </p>
+        <a href="#" class="capitalize inline-flex text-white lg:text-2xl md:text-xl text-lg bg-black items-center justify-center rounded-lg py-3 px-6">
+            <span>next header</span>
+            <span class="mt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>                  
+            </span>
+        </a>
+    </div>
+
+</div>
+<div class="px-8 lg:px-18 bg-pink-100 py-12 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+    <div class="space-y-12 ">
+        <h2 class="lg:text-8xl text-5xl  font-semibold">
+            Let's talk about your big <span class="underline text-red-500">project</span>
+        </h2>
+        <p class="text-lg lg:text-3xl font-light">eiusmod tempor incididunt. Ut enim mimu veniamnostrud elit.</p>
+        <div class="space-y-8">
+            <div class="text-2xl space-y-2 capitalize">
+                <span class="text-red-500">urgent?</span>
+                <span class="text-gray-500">call us:</span>
+                <p class="text-3xl">
+                    +227-300-3676
+                </p>
+            </div>
+        </div>
+    </div>
+    <form class="px-3 lg:px-14 lg:py-16 py-6 bg-white relative w-full lg:w-4/5 lg:mx-auto rounded-lg " action="#" method="post">
+        <div class="space-y-8">
+            <div class="block space-y-2 lg:space-y-5">
+                <label for="" class="text-lg text-gray-400 capitalize">name*</label>
+                <input type="text" class="w-full outline-none border-[1.5px] border-black px-4 py-2 lg:py-3 lg:border-2 text-lg rounded" placeholder="Rashed Kabir" name="" id="">
+            </div>
+            <div class="block space-y-2">
+                <label for="" class="text-lg text-gray-400 capitalize">email*</label>
+                <input type="email" class="w-full outline-none border-[1.5px] border-black px-4 py-2 lg:py-3 lg:border-2 text-lg rounded" placeholder="RashedKabir@test.com" name="" id="">
+            </div>
+            <div class="block space-y-2">
+              <textarea name="" class="w-full outline-none border-[1.5px] border-black px-4 py-2 lg:py-3 lg:border-2 text-lg rounded" placeholder="Your message here" id="" cols="0" rows="5"></textarea>  
+            </div>
+            <button class="inline-block bg-black text-white font-semibold py-2 lg:py-4 text-lg  rounded w-full uppercase hover:duration-1000 hover:bg-red-500">send message</button>
+            
+        </div>
+    </form>
+</div>
+<!-- form with bgImg -->
+
+
+<div class="px-8 lg:px-24 bg-formImg1 py-12 lg:py-32 ">
+    <div class="grid grid-cols-1 lg:grid-cols-2 px-8 py-12 xs:flex-col-reverse bg-white">
+        
+        <div class="space-y-12 lg:px-8 lg:py-16 py-8">
+            <h2 class="lg:text-8xl text-5xl  font-semibold">
+                Let's talk about your big <span class="underline text-red-500">project</span>
+            </h2>
+            <p class="text-lg lg:text-3xl font-light">eiusmod tempor incididunt. Ut enim mimu veniamnostrud elit.</p>
+            <div class="space-y-8">
+                <div class="text-2xl space-y-2 capitalize">
+                    <span class="text-red-500">urgent?</span>
+                    <span class="text-gray-500">call us:</span>
+                    <p class="text-3xl">
+                        +227-300-3676
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <form class="px-3  lg:py-16 py-6 bg-white relative w-full lg:w-4/5 lg:mx-auto rounded-lg " action="#" method="post">
+            <div class="space-y-6 lg:space-y-8">
+                <div class="block space-y-2 lg:space-y-2">
+                    <label for="" class="text-base lg:text-lg text-gray-400 capitalize font-light">name*</label>
+                    <input type="text" class="w-full outline-none border-b-[1.5px] border-black  py-2 lg:py-3 lg:border-b-2 text-base lg:text-lg " placeholder="Rashed Kabir" name="" id="">
+                </div>
+                <div class="block space-y-2">
+                    <label for="" class="text-base lg:text-lg text-gray-400 capitalize font-light">email*</label>
+                    <input type="email" class="w-full outline-none border-b-[1.5px] border-black py-2 lg:py-3 lg:border-b-2 text-base lg:text-lg" placeholder="RashedKabir@test.com" name="" id="">
+                </div>
+                <div class="block space-y-2">
+                  <textarea name="" class="w-full outline-none border-[1.5px] border-black px-4 py-2 lg:py-3 lg:border-2 text-base lg:text-lg " placeholder="Your message here" id="" cols="0" rows="5"></textarea>  
+                </div>
+                <button class="inline-block bg-red-500 text-white font-semibold py-2 lg:py-4 text-lg   w-full uppercase hover:duration-1000 hover:bg-transparent hover:border-2 hover:border-red-500 hover:text-red-500">send message</button>
+                
+            </div>
+        </form>
+    </div>
+</div>
+<!-- form black  -->
+
+<div class="px-8 lg:px-18 bg-zinc-900 py-12 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+    
+    <form class="px-3  bg-zinc-900 space-y-12 lg:py-16 py-6 bg-white relative w-full lg:w-4/5 lg:mx-auto rounded-lg " action="#" method="post">
+        <h2 class="text-5xl text-white capitalize"> Send message.</h2>
+        <div class="space-y-8">
+            <div class="block space-y-2 lg:space-y-5">
+                <label for="" class="text-lg text-gray-400 capitalize">name*</label>
+                <input type="text" class="w-full bg-zinc-700 outline-none border-[1.5px] border-black px-4 py-4 lg:py-3 lg:border-2 text-lg rounded" placeholder="Rashed Kabir" name="" id="">
+            </div>
+            <div class="block space-y-2">
+                <label for="" class="text-lg text-gray-400 capitalize">email*</label>
+                <input type="email" class="w-full bg-zinc-700 outline-none border-[1.5px] border-black px-4 py-4 lg:py-3 lg:border-2 text-lg rounded" placeholder="RashedKabir@test.com" name="" id="">
+            </div>
+            <div class="block space-y-2">
+              <textarea name="" class="w-full bg-zinc-700 outline-none border-[1.5px] border-black px-4 py-4 lg:py-3 lg:border-2 text-lg rounded" placeholder="Your message here" id="" cols="0" rows="5"></textarea>  
+            </div>
+            <button class="inline-block bg-red-500 text-white font-semibold py-2 lg:py-4 text-lg  rounded w-full uppercase hover:duration-1000 hover:bg-transparent border-2 border-red-500 hover:text-red-500">send message</button>
+            
+        </div>
+    </form>
+    <div class="map ">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe class="lg:h-full md:!h-screen  w-full"  id="gmap_canvas" src="https://maps.google.com/maps?q=yaounde&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://123movies-to.org"></a><br>
+            <style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
