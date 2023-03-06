@@ -11,8 +11,10 @@
       theme: {
         extend: {
           backgroundImage: {
-            "miniCreativeHeroBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/themes/vcamp/assets/images/shape/bg-1.png')"
-          }
+            "miniCreativeHeroBg": "url('http://fastwpdemo.com/newwp/vcamp/wp-content/themes/vcamp/assets/images/shape/bg-1.png')",
+            "formBackground" : "url('https://fastwpdemo.com/newwp/vcamp/wp-content/uploads/2021/11/img_73-1.jpg')"
+          
+        }
         }
       }
     }
@@ -83,5 +85,60 @@
             </div>
         </div>
     </div>
+    <div class="h-screen  w-full  bg-formBackground py-16 ">
+        <!-- <div class="mx-auto w-full"> -->
+            <div class="mx-auto space-y-12 px-14 py-16 bg-white rounded-xl w-6/12">
+                <h2 class="text-6xl font-serif">
+                    Hi <span class="text-red-500 underline">buddy</span>, welcome Back!
+                </h2>
+                <p class="text-3xl font-light">
+                    Still don't have an account?
+                    <a href="#" class="text-red-500 underline">Sign up</a>
+                </p>
+                <div class="space-y-6">
+                    <div class="space-y-2">
+                        <label for="email" class="text-gray-500 capitalize text-xl font-light">email</label>
+                        <div class="rounded-lg px-2 py-3 border-2 border-black w-full ">
+                            <input type="email" name="" id="" class="placeholder-black text-xl outline-none px-3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label for="email" class="text-gray-500 capitalize text-xl font-light">password</label>
+                        <div class="flex rounded-lg px-2 py-3 border-2 border-black w-full ">
+                            <input type="text" name="" id="toggle_input_type" class="placeholder-black w-full text-xl outline-none w-full px-3" placeholder="Enter Password">
+                            <div class="flex">
+                                <div class="open-eye hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                      </svg>                               
+                                </div>
+                                <div class="close-eye">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+                                      </svg>                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="bg-black py-3 hover:bg-red-500 duration-150 text-white uppercase text-lg rounded-lg w-full px">login</button>
+                    
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
 </body>    
 </html>
+<script>
+    const $ = (el) => {return document.querySelector(el)}
+    const blind = $(".close-eye")
+    blind.onclick = () => {
+        
+        if ($(".close-eye").contains("hidden")) {
+            $(".close-eye").remove("close-eye")
+            $("#toggle_input_type")
+        } else {
+            
+        }
+    }
+</script>
